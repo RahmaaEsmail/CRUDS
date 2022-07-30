@@ -1,0 +1,41 @@
+:root{
+    --main-color:#2a8a85;
+}
+.header{
+    background-color:  var(--main-color);
+}
+
+.text
+{
+    background-color: #e2dfdf;
+    color: var(--main-color);
+}
+
+
+.container
+{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.add{
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid var(--main-color);
+    transition: all 0.5s;
+   
+   
+}
+.add:hover{
+    background-color: white;
+    color: var(--main-color);
+}
+
+table{
+    background-color: var(--main-color);
+}
+table th,td{
+    padding: 20px 0 !important;
+}
+
+.form-control:focus{
+    box-shadow: unset;
+}
